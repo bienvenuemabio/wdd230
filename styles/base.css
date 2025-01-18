@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    display: flex;
+    grid-column: 1/4;
+    text-align: center;
+    background-color: #e2495B;
+    grid-template-columns: 1fr auto;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+    display: grid;
+    background-color: #c4ba3b;
+
+}
