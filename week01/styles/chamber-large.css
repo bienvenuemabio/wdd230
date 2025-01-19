@@ -1,0 +1,21 @@
+@media(min-width: 640px) {
+    nav ul {
+        display: flex;
+    }
+
+    nav ul li {
+        flex: 1 1 100%;
+    }
+}
+
+@media only section and (min-width: 32rem) {
+    .parent {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        column-gap: 10px;
+    }
+
+    .parent section {
+        box-shadow: 1px 1px 10 px black;
+    }
+}
