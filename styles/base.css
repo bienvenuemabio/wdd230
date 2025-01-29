@@ -18,10 +18,6 @@ nav {
     margin: 0 auto;
 }
 
-h1 {
-    font-size: 2rem;
-    text-decoration: underline;
-}
 
 nav {
     background-color: #C70039;
@@ -55,7 +51,8 @@ header span {
 }
 
 h1 {
-    text-align: center;
+    font-size: 2rem;
+    border-bottom: 1px solid #030442;
 }
 
 .parent {
