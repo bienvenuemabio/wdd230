@@ -5,12 +5,12 @@
 }
 
 header {
-    background-color: #581845;
+    background-color: rgb(255, 255, 255);
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 1px solid #C70039;
+    border: 1px solid #3f072a;
 }
 
 header,
@@ -20,7 +20,7 @@ nav {
 
 
 nav {
-    background-color: #C70039;
+    background-color: #3f072a;
     margin: 0 auto;
 
 }
@@ -42,11 +42,12 @@ nav a:hover {
 }
 
 .active {
+
     color: #DAF7A6;
 }
 
 header span {
-    color: #fff;
+    color: blueviolet;
 
 }
 
@@ -60,8 +61,8 @@ h1 {
 }
 
 .parent section {
-    border: 1px solid #C70039;
-    background-color: #DAF7A6;
+    border: 1px solid #030442;
+    background-color: #fafafa;
     border-radius: 10px;
     margin: 1rem 0;
 }
@@ -83,9 +84,9 @@ section ul {
 }
 
 footer {
-    background-color: #581845;
+    background-color: white;
     padding: 2rem;
     margin: 0;
     text-align: center;
-    color: #DAF7A6;
+    color: blueviolet;
 }
