@@ -5,26 +5,41 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Lazyload</title>
+    <link rel="stylesheet" href="styles/lazyload.css">
+    <script src="scripts/lazyload.js"></script>
 </head>
 
 <body>
     <header>
-        <h1>LazyLoad</h1>
+        <h1>Lazy Load</h1>
     </header>
     <main>
         <div>
-            <img src="images/astraunaut.webp" alt="astraunaut" width="400" height="600">
-            <img src="images/breakfast.webp" alt="breakfast" width="'400" height="600">
-            <img src="images/love.webp" alt="Love" width="'400" height="600">
-            <img src="images/neant.webp" alt="neant" width="'400" height="600">
-            <img src="images/skie.webp" alt="skie" width="'400" height="600">
-            <img src="images/phot.webp" alt="photo" width="'400" height="600">
+            <picture>
+                <img src="images/astraunaut.webp" alt="astraunaut" width="400" height="600" loading="lazy">
+            </picture>
+            <picture>
+                <img src="images/breakfast.webp" alt="breakfast" width="'400" height="600" loading="lazy">
+
+            </picture>
+            <picture>
+                <img src="images/love.webp" alt="Love" width="'400" height="600" loading="lazy">
+            </picture>
+            <picture><img src="images/neant.webp" alt="neant" width="'400" height="600" loading="lazy"></picture>
+            <picture>
+                <img src="images/skie.webp" alt="skie" width="'400" height="600" loading="lazy">
+            </picture>
+            <picture>
+                <img src="images/phot.webp" alt="photo" width="'400" height="600" loading="lazy">
+            </picture>
+
 
 
         </div>
 
     </main>
     <footer>
+        <p> @ <span id="year"> Bienvenue-Adjoua-Felicite-Kouassi Mabio</span></p>
 
     </footer>
 
