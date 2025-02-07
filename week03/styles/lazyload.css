@@ -23,11 +23,10 @@ main {
 img {
     width: 100%;
     animation: fade 15 s;
-    align-items: center;
 
 }
 
-@heyframe, fade {
+/*@heyframe, fade {
     0% {
         opacity: 0;
     }
@@ -35,4 +34,4 @@ img {
     100% {
         opacity: 1;
     }
-}
+}*/

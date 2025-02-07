@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Image</title>
+    <link rel="stylesheet" href="styles/responsive-images.css">
+</head>
+
+<body>
+    <header>
+        <h1> Responsive Images</h1>
+    </header>
+    <main>
+        <picture>
+            <source srcset="images/accra.wepb.webp" media="(max-width:400px)">
+            <source srcset="images/columbia.webp" media="(max-width:960px)">
+            <img srcset="images/accra.wepb.webp" alt="Accra temple" width="500" height="250">
+            <img srcset="images/columbia.webp" alt="Colombia Temple" width="500" height="250">
+        </picture>
+    </main>
+    <footer>
+        <p class="foot"> @ <span id="currentyear"></span> Kouassi Bienvenue Adjoua Felicite - Ivory Coast</p>
+    </footer>
+
+</body>
+
+</html>
