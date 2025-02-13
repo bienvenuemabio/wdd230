@@ -10,7 +10,7 @@ header {
     align-items: center;
     justify-content: center;
     padding: 20px;
-    border: 1px solid #C70039;
+    border: 1px solid #29010c;
 }
 
 header,
@@ -21,7 +21,7 @@ nav {
 h1 {
     font-size: 2rem;
     text-decoration: underline;
-    color: rgb(170, 4, 4);
+    color: #800000;
 }
 
 nav {
@@ -71,9 +71,7 @@ h1 {
 }
 
 main {
-    display: grid;
-    grid-template-columns: auto;
-    grid-column: 1/3;
+    height: 100%;
 }
 
 .parent h2 {
@@ -92,10 +90,15 @@ section ul {
     list-style-type: none;
 }
 
+span {
+    background-color: #800000;
+
+}
+
 footer {
-    background-color: #c2c26a;
+    background-color: #feeaea;
     padding: 2rem;
     margin: 0;
     text-align: center;
-    color: #FFF;
+    color: #220000;
 }
