@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+:root {
+    background-color: rgb(246, 155, 45);
+}
+
 body {
     font-family: Roboto, helvetica, sans-serif;
     background-color: #ddd;
