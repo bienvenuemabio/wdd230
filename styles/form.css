@@ -13,10 +13,21 @@ main {
     margin: 50px auto;
     border: 1px solid rgba(0, 0, 0, 0.1);
     background-color: #fff;
-    max-width: 500px;
+    text-align: center;
+    max-width: auto;
 }
 
-header,
+a:link {
+    color: rgb(0, 255, 229);
+}
+
+a:hover {
+    color: rgb(204, 255, 0);
+}
+
+a:active {
+    color: aqua;
+}
 
 footer {
     background-color: white;
