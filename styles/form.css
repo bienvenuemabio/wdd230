@@ -17,6 +17,12 @@ main {
     max-width: auto;
 }
 
+form input,
+form button {
+    margin-bottom: 30px;
+    /* Espace de 10px entre chaque élément */
+}
+
 a:link {
     color: rgb(0, 255, 229);
 }
@@ -27,6 +33,10 @@ a:hover {
 
 a:active {
     color: aqua;
+}
+
+button:link {
+    color: blue;
 }
 
 footer {
