@@ -1,3 +1,10 @@
-input type = "password" name = "pass1" id = "use1" required
-const x = document.querySelector('#use1');
-const Y = x.value
+const rangevalue = document.getElementById("rangevalue");
+const range = document.getElementById("r");
+
+// RANGE event listener
+range.addEventListener('change', displayRatingValue);
+range.addEventListener('input', displayRatingValue);
+
+function displayRatingValue() {
+    rangevalue.innerHTML = range.value;
+}
