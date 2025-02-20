@@ -32,7 +32,7 @@
 
     </nav>
     <main>
-        <form method="get" action="record.html">
+        <form method="get" action="thankyou.html">
             <label> First Name:
                 <input type="text" pattern="" id="" name="firstname" required placeholder="Enter your First name">
             </label>
@@ -43,27 +43,21 @@
                 <input type="text" pattern="" id="" name="position" required placeholder="Enter your position">
             </label>
             <label for=""> Organisation's Name:
-                <input type="text" name="business" id="" pattern="" required placeholder="do not exceed 8 caracters">
+                <input type="text" name="business" id="" pattern="" required placeholder="enter your business">
             </label>
-            <label for=""> password
-                <input type="password" name="" id="" pattern="" required placeholder="repeat the password">
+            <label for=""> Membership level
+                <input type="text" name="" id="" pattern="" required placeholder="">
             </label>
             <label for=""> Email:
-                <input type="text" name="" id="" pattern="[a-zA-Z0-9._%+-]+@byui\.edu$"
-                    placeholder="Please enter a valid email address">
+                <input type="text" name="" id="" pattern="" placeholder="Please enter a valid email address">
             </label>
-            <label for=""> Range page:
+            <label for=""> Description
+                <input type="text" name="description" pattern="" id="" placeholder="description" required>
+            </label>
+            <label for=""> Timestamp
+                <input type="hidden" name="" id="">
 
             </label>
-            <input type="range" id="r" name="r" min="0" max="5" value="0" step="1" list="rangevalues">
-            <datalist id="rangevalues">
-                <option value="0">0</option>
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
-                <option value="5">5</option>
-            </datalist>
 
             <button id="" type="submit"> submit</button>
 
