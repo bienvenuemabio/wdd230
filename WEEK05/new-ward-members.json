@@ -1,0 +1,28 @@
+{
+    "name": "kacou family",
+    "movedate": 2024,
+    "numberofrecord": 4,
+    "visitedbybishopric": "yes",
+    "members": [
+        {
+            "name": "kacou olivier",
+            "gender": "masculin",
+            "birthdate": "14/07/1990"
+        },
+        {
+            "name": "Npoue jeannette",
+            "gender": "feminin",
+            "birthdate": "30/03/1993"
+        },
+        {
+            "name": "kacou prince",
+            "gender": "masculin",
+            "birthdate": "30/09/2018"
+        },
+        {
+            "name": "kacou grace",
+            "gender": "feminin",
+            "birthdate": "17/01/2022"
+        }
+    ]
+}
